@@ -1,0 +1,30 @@
+h1{
+    background-color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: yellow;
+}
+
+#show{
+    float: right;
+}
+
+canvas{
+    border: 3px solid turquoise;
+    border-radius: 5px;
+    margin-top: 50px;
+    animation-name: lmao;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lmao{
+    from{box-shadow: 4px 2px 24px crimson;}
+    to{box-shadow: 4px 2px 24px blueviolet;}
+}
+
+#label,#confidence{
+    padding-top: 10px;
+    font-size: 25px;
+}
